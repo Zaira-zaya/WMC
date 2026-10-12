@@ -3,111 +3,165 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Über mich – Zaira</title>
+  <title>Lebenslauf – Zaira</title>
 
   <style>
     body {
       font-family: Arial, sans-serif;
+      background: #f5f5f5;
       margin: 0;
       padding: 0;
-      background: #f7f7f7;
-      color: #333;
     }
 
-    header {
-      background: #222;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 10px 0 0;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-    }
-
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    main {
-      max-width: 800px;
+    .container {
+      max-width: 900px;
       margin: 40px auto;
-      padding: 20px;
       background: white;
+      padding: 30px;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
-    img {
-      display: block;
-      margin: 0 auto 20px;
-      width: 200px;
-      border-radius: 10px;
+    header {
+      text-align: center;
+      margin-bottom: 30px;
     }
 
-    aside {
+    .profilbild {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    h2 {
       margin-top: 40px;
-      padding: 15px;
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
       background: #eee;
-      border-left: 5px solid #222;
     }
 
     footer {
       text-align: center;
-      padding: 20px;
-      background: #222;
-      color: white;
       margin-top: 40px;
-    }
-
-    footer a {
-      color: #fff;
+      color: #555;
     }
   </style>
 </head>
 
 <body>
-  <header>
-    <h1>Über mich</h1>
-    <nav>
-      <ul>
-        <li><a href="#profil">Profil</a></li>
-        <li><a href="#interessen">Interessen</a></li>
-        <li><a href="#kontakt">Kontakt</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="container">
 
-  <main>
-    <article id="profil">
-      <h2>Profil</h2>
+    <header>
+      <img src="img/zaira-animation.png" alt="Animiertes Bild von Zaira" class="profilbild">
+      <h1>Zaira</h1>
+      <p>Schülerin der HTL Spengergasse · Cyber Security & Java</p>
+    </header>
 
-      <img src="img/image" alt="Animiertes Bild von Zaira">
+    <h2>Persönliche Daten</h2>
+    <table>
+      <tr>
+        <th>Geburtsdatum</th>
+        <td>26.07.2003</td>
+      </tr>
+      <tr>
+        <th>Geburtsort / Herkunft</th>
+        <td>Tschetschenien</td>
+      </tr>
+      <tr>
+        <th>Wohnort</th>
+        <td>Wien, Österreich</td>
+      </tr>
+      <tr>
+        <th>E-Mail</th>
+        <td><a href="mailto:Kam250589@spengergasse.at">Kam250589@spengergasse.at</a></td>
+      </tr>
+    </table>
 
-      <p>Ich bin Zaira, ehemalige Schülerin der Modeschule Hetzendorf. 
-      Ich liebe präzises Arbeiten, logisches Denken und beschäftige mich aktuell mit Cyber Security und Java.</p>
-    </article>
+    <h2>Ausbildung</h2>
+    <table>
+      <tr>
+        <th>Zeitraum</th>
+        <th>Ausbildung</th>
+      </tr>
+      <tr>
+        <td>2024 – aktuell</td>
+        <td>HTL Spengergasse – Fachrichtung Informatik / Cyber Security</td>
+      </tr>
+      <tr>
+        <td>bis 2024</td>
+        <td>Modeschule Hetzendorf</td>
+      </tr>
+    </table>
 
-    <article id="interessen">
-      <h2>Interessen</h2>
-      <p>Ich schneidere gern, interessiere mich für sichere Systeme und mag es, Code zu verstehen und zu optimieren.</p>
-    </article>
+    <h2>Kenntnisse</h2>
+    <table>
+      <tr>
+        <th>Bereich</th>
+        <th>Skills</th>
+      </tr>
+      <tr>
+        <td>Programmierung</td>
+        <td>Java (Grundlagen), HTML, CSS</td>
+      </tr>
+      <tr>
+        <td>IT & Sicherheit</td>
+        <td>Cyber Security Basics, logisches Denken, strukturiertes Arbeiten</td>
+      </tr>
+      <tr>
+        <td>Kreativ</td>
+        <td>Schneidern, Modegestaltung</td>
+      </tr>
+    </table>
 
-    <aside>
-      <h3>Fun Fact</h3>
-      <p>Ich finde es spannend, wie Mode und Technik sich ergänzen – Struktur ist überall wichtig, egal ob Stoff oder Code.</p>
-    </aside>
-  </main>
+    <h2>Sprachen</h2>
+    <table>
+      <tr>
+        <th>Sprache</th>
+        <th>Niveau</th>
+      </tr>
+      <tr>
+        <td>Deutsch</td>
+        <td>Sehr gut</td>
+      </tr>
+      <tr>
+        <td>Tschetschenisch</td>
+        <td>Muttersprache</td>
+      </tr>
+      <tr>
+        <td>Englisch</td>
+        <td>Gut</td>
+      </tr>
+    </table>
 
-  <footer id="kontakt">
-    <p>Kontakt: <a href="mailto:Kam250589@spengergasse.at">Kam250589@spengergasse.at</a></p>
-  </footer>
+    <h2>Interessen</h2>
+    <p>Cyber Security, Mode, Schneidern, Programmieren, Technik, logisches Denken.</p>
+
+    <footer>
+      <p>© 2026 – Lebenslauf von Zaira</p>
+    </footer>
+
+  </div>
 </body>
 </html>
